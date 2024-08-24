@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+  <link href="./styles.css" rel="stylesheet" />
+  <title>Reto Tatiana Chavarria</title>
+</head>
+
+<body>
+  <main>
+    <section class="main">
+      <div class="contenedor-logo">
+        <img src="logo.png" alt="logo alura" class="logo">
+        <h1>by Tatiana Chavarria</h1>
+      </div>
+      <input id="seccion-principal-texto-procesar" class="seccion-principal-texto-procesar" placeholder="Ingrese el texto aquí" />
+      <div class="contenedor-footer">
+        <div class="contenedor-nota">
+          <p>* Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="contenedor-footer-botones">
+          <button class="boton primario" id="boton-encriptar">Encriptar</button>
+          <button class="boton secundario" id="boton-desencriptar">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+    <section class="side" id="side">
+      <div class="seccion-lateral-procesado" id="seccion-procesado">
+        <p id="texto-procesado"></p>
+        <button class="boton secundario copiar" id="boton-copiar">Copiar</button>
+      </div>
+      <div id="contenedor-no-informacion" class="contenedor-no-informacion">
+        <img src="./imagen.png" alt="" class="imagen">
+        <div class="contenedor-retroalimentacion">
+          <p class="titulo-retroalimentacion">Ningún mensaje fue encontrado</p>
+          <p class="texto-retroalimentacion">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
